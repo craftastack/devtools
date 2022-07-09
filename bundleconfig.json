@@ -1,0 +1,30 @@
+[
+  {
+    "outputFileName": "output/assets/css/appetizers-craftastack.bundle.css",
+    "inputFiles": [
+      "output/assets/css/appetizers-craftastack.css"
+    ]
+  },
+  {
+    "outputFileName": "output/assets/js/appetizers-craftastack.head.bundle.js",
+    "inputFiles": [
+      "input/assets/js/head-google-tag-manager.js",
+      "node_modules/st3phhays-assets/js/head-theme-selector-toggle.js"
+    ]
+  },
+  {
+      "outputFileName": "output/assets/js/appetizers-craftastack.bundle.js",
+      "inputFiles": [
+        "node_modules/bootstrap/js/dist/dom/data.js",
+        "node_modules/bootstrap/js/dist/dom/event-handler.js",
+        "node_modules/bootstrap/js/dist/dom/manipulator.js",
+        "node_modules/bootstrap/js/dist/dom/selector-engine.js",
+        "node_modules/bootstrap/js/dist/base-component.js",
+        "node_modules/bootstrap/js/dist/alert.js",
+        "node_modules/bootstrap/js/dist/collapse.js",
+        "node_modules/st3phhays-assets/js/functions/cookies.js",
+        "node_modules/st3phhays-assets/js/cookie-notice.js",
+        "node_modules/st3phhays-assets/js/theme-selector-toggle.js"
+      ]
+    }
+  ]

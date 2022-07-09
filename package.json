@@ -1,0 +1,16 @@
+{
+  "name": "appetizers-by-craftastack",
+  "packageManager": "yarn@3.2.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftastack/appetizers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craftastack/appetizers/issues"
+  },
+  "homepage": "https://github.com/craftastack/appetizers#readme",
+  "devDependencies": {
+    "toppings-by-craftastack": "git+https://github.com/craftastack/toppings.git"
+  }
+}
