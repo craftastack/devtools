@@ -55,6 +55,10 @@ function copyAssets() {
         //.pipe(imagemin())
         .pipe(dest(paths.output + 'images'));
 
+    var copyToppingsImages = src(paths.node_modules + 'toppings-by-craftastack/images/**/*.*')
+        .pipe(imagemin())
+        .pipe(dest(paths.output + 'images/toppings'));
+
     var copyIcons = src(paths.input + '/*.png')
         //.pipe(imagemin())
         .pipe(dest('output'));
@@ -62,7 +66,7 @@ function copyAssets() {
     var copyManifest = src(paths.input + '/site.webmanifest')
         .pipe(dest('output'));
 
-    return merge(copyFontAwesome, copyImages, copyIcons, copyManifest);
+    return merge(copyFontAwesome, copyImages, copyToppingsImages, copyIcons, copyManifest);
 }
 
 function compileScss() {

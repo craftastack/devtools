@@ -31,7 +31,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.18.6":
+"@babel/core@npm:^7.18.9":
   version: 7.18.9
   resolution: "@babel/core@npm:7.18.9"
   dependencies:
@@ -1159,7 +1159,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.18.6":
+"@babel/preset-env@npm:^7.18.9":
   version: 7.18.9
   resolution: "@babel/preset-env@npm:7.18.9"
   dependencies:
@@ -1563,11 +1563,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.5.0":
-  version: 8.7.1
-  resolution: "acorn@npm:8.7.1"
+  version: 8.8.0
+  resolution: "acorn@npm:8.8.0"
   bin:
     acorn: bin/acorn
-  checksum: aca0aabf98826717920ac2583fdcad0a6fbe4e583fdb6e843af2594e907455aeafe30b1e14f1757cd83ce1776773cf8296ffc3a4acf13f0bd3dfebcf1db6ae80
+  checksum: 7270ca82b242eafe5687a11fea6e088c960af712683756abf0791b68855ea9cace3057bd5e998ffcef50c944810c1e0ca1da526d02b32110e13c722aa959afdc
   languageName: node
   linkType: hard
 
@@ -3133,9 +3133,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001366":
-  version: 1.0.30001367
-  resolution: "caniuse-lite@npm:1.0.30001367"
-  checksum: 9912aed182b8b3a834787424b56a0e71b5ecb5d2cb7235fb022227bc3a81202e8a34bebc5dc9cc504c515b4e052f825c36c2db4b0b880c10e195fe63673edfc6
+  version: 1.0.30001368
+  resolution: "caniuse-lite@npm:1.0.30001368"
+  checksum: e2a763e7bca8f7a2494f752d0e1a5c0cd1c70ebd18df2eda2bdcf2f908901bbff14f78961ad1cada3eb7af32120ce95aa93f06c5a093d721e787816dc7f5bfaa
   languageName: node
   linkType: hard
 
@@ -4185,9 +4185,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.188":
-  version: 1.4.195
-  resolution: "electron-to-chromium@npm:1.4.195"
-  checksum: 17aa9d834eadba6762dc9e3839a273ad87d82aeda82e6ace7db81829a00a0527c8291179d61b4599fac1c09a982cebd6d3ef68bcef7d07076d957d9ec0991b94
+  version: 1.4.198
+  resolution: "electron-to-chromium@npm:1.4.198"
+  checksum: 4ef3e595539779711cbc21fda244825ec344897a2d1e82451b1b8b6d24bc49caab58166aa8ea26fc5fa58f8ae35ffd44fd27c7f0aba65249aaad8e2f3267a7a1
   languageName: node
   linkType: hard
 
@@ -9993,10 +9993,10 @@ __metadata:
 
 "toppings-by-craftastack@git+https://github.com/craftastack/toppings.git":
   version: 0.0.0
-  resolution: "toppings-by-craftastack@https://github.com/craftastack/toppings.git#commit=6a81b45b1c49de9e77b146602eb57ec818721340"
+  resolution: "toppings-by-craftastack@https://github.com/craftastack/toppings.git#commit=0aaa3271afc7b9ff1ea9d82fc5b558f51ca8ac3f"
   dependencies:
-    "@babel/core": ^7.18.6
-    "@babel/preset-env": ^7.18.6
+    "@babel/core": ^7.18.9
+    "@babel/preset-env": ^7.18.9
     "@babel/preset-react": ^7.18.6
     "@fortawesome/fontawesome-free": ^6.1.1
     "@popperjs/core": ^2.11.5
@@ -10025,7 +10025,7 @@ __metadata:
     st3phhays-assets: "git+https://github.com/st3phhays/st3phhays-assets.git"
     vinyl-buffer: ^1.0.1
     vinyl-source-stream: ^2.0.0
-  checksum: 9c9125128f1ced967eca473037dbb9874892703a079ad3ba3e2c1f78b107093db77db41afe55bc7a52004343d36a0f5801a79ad9e89a2a472492a6d116f086a2
+  checksum: d94e848570f7ae30b9184cfd69758f4611b177e839db5d6ff5a002ebb07ea7d1b98ee8efd42c1f085d6b2580de2ce1de2e18b9c45a83b74476d3243851b08a32
   languageName: node
   linkType: hard
 
