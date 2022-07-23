@@ -3133,9 +3133,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001366":
-  version: 1.0.30001368
-  resolution: "caniuse-lite@npm:1.0.30001368"
-  checksum: e2a763e7bca8f7a2494f752d0e1a5c0cd1c70ebd18df2eda2bdcf2f908901bbff14f78961ad1cada3eb7af32120ce95aa93f06c5a093d721e787816dc7f5bfaa
+  version: 1.0.30001369
+  resolution: "caniuse-lite@npm:1.0.30001369"
+  checksum: f3f0eadc0685b399c0cad1116991d4c73d9fa10517ab72c3fb1c5e78fd5a019002f94a6d03b57a530009c69106400bdfa7dc0bddb01569428df67b9c5e411542
   languageName: node
   linkType: hard
 
@@ -4185,9 +4185,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.188":
-  version: 1.4.198
-  resolution: "electron-to-chromium@npm:1.4.198"
-  checksum: 4ef3e595539779711cbc21fda244825ec344897a2d1e82451b1b8b6d24bc49caab58166aa8ea26fc5fa58f8ae35ffd44fd27c7f0aba65249aaad8e2f3267a7a1
+  version: 1.4.199
+  resolution: "electron-to-chromium@npm:1.4.199"
+  checksum: d029a04cd765400bfa245c17e4895e15fcab3fd5c4dff7bfe1ceae9316a06fb4695b7078a50cfd04e0ca77ae27897520e4a8a332c13f7c2fdb2ee4a4b4593199
   languageName: node
   linkType: hard
 
@@ -9000,15 +9000,15 @@ __metadata:
   linkType: hard
 
 "sass@npm:^1.53.0":
-  version: 1.53.0
-  resolution: "sass@npm:1.53.0"
+  version: 1.54.0
+  resolution: "sass@npm:1.54.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 4bcb0617d6a4d1f2c089a1cb5c32f65a9ee874b23559f2742fab07cf8478fb74ad20c0730cf9f93915d7dbfc258901f89970674228c3ac91c3883a0a62a0ddab
+  checksum: 7d3acf124d771e8811fce876ad37f786faafa9edce64b20dcf32bf6aed5116802c863d3311fd79e7e7682fcccc4dc684960be1365cffa7dad045be7251c40d70
   languageName: node
   linkType: hard
 
@@ -9444,8 +9444,8 @@ __metadata:
 
 "st3phhays-assets@git+https://github.com/st3phhays/st3phhays-assets.git":
   version: 0.1.0
-  resolution: "st3phhays-assets@https://github.com/st3phhays/st3phhays-assets.git#commit=660ed3e3a2e179578dce755712009c12a36af6d0"
-  checksum: b063ada59e8cf523957e41c4c16dbe6fdba8bbb1abd96313a631ed4e774b32be4220d0bc51131b5c5152018ce2b8fc73c41f667601d16fbbf47851b2a8fe9a3c
+  resolution: "st3phhays-assets@https://github.com/st3phhays/st3phhays-assets.git#commit=9a2050bd6ebe1fdf271787b3639fd82414c15cbd"
+  checksum: b8b1153d5d6ef0d84e116dad12cb27367e9e3cae95135a1a90ba0769ae1c7dbc65bb97a2b543ac578fb1591cfa3f26594616a4a53c5d42b25b573e788f8ac0a1
   languageName: node
   linkType: hard
 
@@ -9993,7 +9993,7 @@ __metadata:
 
 "toppings-by-craftastack@git+https://github.com/craftastack/toppings.git":
   version: 0.0.0
-  resolution: "toppings-by-craftastack@https://github.com/craftastack/toppings.git#commit=0aaa3271afc7b9ff1ea9d82fc5b558f51ca8ac3f"
+  resolution: "toppings-by-craftastack@https://github.com/craftastack/toppings.git#commit=795b3a5b60b838855e1122fb5885c85a88b6744d"
   dependencies:
     "@babel/core": ^7.18.9
     "@babel/preset-env": ^7.18.9
@@ -10021,11 +10021,12 @@ __metadata:
     netlify-identity-widget: ^1.9.2
     react: ^18.2.0
     react-dom: ^18.2.0
+    rimraf: ^3.0.2
     sass: ^1.53.0
     st3phhays-assets: "git+https://github.com/st3phhays/st3phhays-assets.git"
     vinyl-buffer: ^1.0.1
     vinyl-source-stream: ^2.0.0
-  checksum: d94e848570f7ae30b9184cfd69758f4611b177e839db5d6ff5a002ebb07ea7d1b98ee8efd42c1f085d6b2580de2ce1de2e18b9c45a83b74476d3243851b08a32
+  checksum: 1ca3517384f26aa0c15e449c6e7461d47b1bed613699d032a3f8a42856a06e89b1817bb9bef00dd41ce45ab9add5da914954447bb935fde257e9952d4a9b1a4a
   languageName: node
   linkType: hard
 

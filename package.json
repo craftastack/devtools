@@ -10,6 +10,10 @@
     "url": "https://github.com/craftastack/appetizers/issues"
   },
   "homepage": "https://github.com/craftastack/appetizers#readme",
+  "scripts": {
+    "upgrade": "rimraf yarn.lock && yarn up",
+    "link": "yarn link ../toppings --private && yarn link ../../st3phhays-assets --private"
+  },
   "devDependencies": {
     "toppings-by-craftastack": "git+https://github.com/craftastack/toppings.git"
   }
