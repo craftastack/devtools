@@ -59,6 +59,12 @@ function copyAssets() {
         .pipe(imagemin())
         .pipe(dest(paths.output + 'images/toppings'));
 
+    var copyToppingsPartials = src(paths.node_modules + 'toppings-by-craftastack/partials/*.*')
+        .pipe(dest(paths.input + 'shared/toppings'));
+
+    var copyToppings404 = src(paths.node_modules + 'toppings-by-craftastack/pages/404.cshtml')
+        .pipe(dest(paths.input));
+
     var copyIcons = src(paths.input + '/*.png')
         //.pipe(imagemin())
         .pipe(dest('output'));
@@ -66,7 +72,7 @@ function copyAssets() {
     var copyManifest = src(paths.input + '/site.webmanifest')
         .pipe(dest('output'));
 
-    return merge(copyFontAwesome, copyImages, copyToppingsImages, copyIcons, copyManifest);
+    return merge(copyFontAwesome, copyImages, copyToppingsImages, copyToppingsPartials, copyToppings404, copyIcons, copyManifest);
 }
 
 function compileScss() {
@@ -112,7 +118,7 @@ function concatCss() {
 }
 
 function purgeCss() {
-    return src(paths.output + 'css/appetizers-craftastack.bundle.css')
+    return src(paths.output + 'css/craftastack.bundle.css')
         .pipe(purgecss({
             content: [
                 paths.input + '**/*.cshtml',

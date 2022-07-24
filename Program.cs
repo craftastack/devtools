@@ -1,7 +1,7 @@
 ﻿await Bootstrapper
     .Factory
     .CreateWeb(args)
-    .AddSetting(Keys.Host, "appetizers.craftastack.io")
+    .AddSetting(Keys.Host, Appetizers.Constants.Site.Url)
     .AddSetting(Keys.LinksUseHttps, true)
     .ConfigureEngine(engine => engine.Pipelines.Remove(nameof(Statiq.Web.Pipelines.Assets)))
     .ConfigureEngine(engine => engine.Pipelines.Add(nameof(Statiq.Web.Pipelines.Assets), new Pipeline()))

@@ -3,6 +3,8 @@ tools/
 BuildArtifacts/
 config.wyam.*
 .DS_Store
+404.cshtml
+input/shared/toppings/
 output/
 bin/
 obj/

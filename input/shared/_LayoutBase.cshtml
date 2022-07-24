@@ -1,61 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" data-sh-theme-dark="craft" data-sh-theme-light="stack">
 <head>
-    @{
-        string title = Document.Keys.Contains(Keys.Title) ? "Appetizers by CRAFTASTACK | " + Document.GetString(Keys.Title) : "Appetizers by CRAFTASTACK";
-        string description = Document.GetString("Excerpt") != null ? Document.GetString("Excerpt") : "Appetizers to help craft your next project.";
-        string ogImage = Document.ContainsKey("OgImage") ? Document.GetString("OgImage") : "appetizers-craftastack-og.png";
-        string baseUrl = Context.GetLink().TrimEnd('/');
-    }
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#557efe">
     @RenderSection("ExtraHeaders", required: false)
-    <meta name="description" content="@description" />
-    @* Open Graph data *@
-    <meta property="og:title" content="@title" />
-    <meta property="og:description" content="@description" />
-    <meta property="og:image" content='@baseUrl/assets/images/social-share/@ogImage' />
-    <meta property="og:site_name" content="Appetizers by CRAFTASTACK" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="@baseUrl@Document.GetLink()" />
-    @* Twitter Card data *@
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:creator" content="">
-    @* Apple Touch and Favicons *@
-    <link rel="icon" type="image/png" sizes="16x16" href='@baseUrl/favicon-16x16.png'>
-    <link rel="icon" type="image/png" sizes="32x32" href='@baseUrl/favicon-32x32.png'>
-    <link rel="icon" type="image/png" sizes="96x96" href='@baseUrl/favicon-96x96.png'>
-    <link rel="apple-touch-icon" href='@baseUrl/apple-touch-icon.png' />
-    <link rel="apple-touch-icon" sizes="152x152" href='@baseUrl/apple-touch-icon-152x152.png' />
-    <link rel="apple-touch-icon" sizes="167x167" href='@baseUrl/apple-touch-icon-167x167.png' />
-    <link rel="apple-touch-icon" sizes="180x180" href='@baseUrl/apple-touch-icon-180x180.png' />
-    <link rel="manifest" href="@baseUrl/site.webmanifest">
-    <title>@title</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Press+Start+2P&family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href='@Context.GetLink("/assets/css/appetizers-craftastack.bundle.min.css")'>
-    <script type="text/javascript" src='@Context.GetLink("/assets/js/appetizers-craftastack.head.bundle.min.js")'></script>
+    @Html.Partial("~/shared/toppings/_HeadMeta.cshtml")
+    <link rel="stylesheet" href='@Context.GetLink("/assets/css/craftastack.bundle.min.css")'>
+    <script type="text/javascript" src='@Context.GetLink("/assets/js/craftastack.head.bundle.min.js")'></script>
 </head>
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WD7VSX8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    @*<script type="text/javascript" src='@Context.GetLink("/assets/js/appetizers-craftastack.body.bundle.min.js")'></script>*@
+    @*<script type="text/javascript" src='@Context.GetLink("/assets/js/craftastack.body.bundle.min.js")'></script>*@
     <header></header>
     <main role="main" class='@(Document.Keys.Contains("CenteredLayout") ? "mt-md-auto" : "")'>
         @RenderBody()
     </main>
     <footer class="position-relative text-center">
         @*<div id="cookieNotice" class="alert alert-white alert-dismissible fade show position-fixed bottom-0 start-0 end-0 mb-0 p-2 z-index-1 d-flex align-items-center justify-content-center d-none" role="alert">
-            <p class="small mb-0">appetizers.craftastack.io uses cookies to enhance the user experience of the site.</p>
+            <p class="small mb-0">@Constants.Site.Url uses cookies to enhance the user experience of the site.</p>
             <button type="button" class="btn btn-sm btn-black ms-2" data-bs-dismiss="alert" aria-label="Close">Accept</button>
         </div>*@
         <div class="container">
-            <p class="small">© @DateTime.Today.Year Appetizers by CRAFTASTACK</p>
+            <p class="small">© @DateTime.Today.Year @Constants.Site.Title</p>
         </div>
     </footer>
-    <script type="text/javascript" src='@Context.GetLink("/assets/js/appetizers-craftastack.bundle.min.js")'></script>
+    <script type="text/javascript" src='@Context.GetLink("/assets/js/craftastack.bundle.min.js")'></script>
     @RenderSection("BottomScripts", required: false)
 </body>
 </html>

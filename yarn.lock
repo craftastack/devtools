@@ -9993,7 +9993,7 @@ __metadata:
 
 "toppings-by-craftastack@git+https://github.com/craftastack/toppings.git":
   version: 0.0.0
-  resolution: "toppings-by-craftastack@https://github.com/craftastack/toppings.git#commit=795b3a5b60b838855e1122fb5885c85a88b6744d"
+  resolution: "toppings-by-craftastack@https://github.com/craftastack/toppings.git#commit=3650740bcb668753667dabdcb3814c43aa0a7a4d"
   dependencies:
     "@babel/core": ^7.18.9
     "@babel/preset-env": ^7.18.9
@@ -10026,7 +10026,7 @@ __metadata:
     st3phhays-assets: "git+https://github.com/st3phhays/st3phhays-assets.git"
     vinyl-buffer: ^1.0.1
     vinyl-source-stream: ^2.0.0
-  checksum: 1ca3517384f26aa0c15e449c6e7461d47b1bed613699d032a3f8a42856a06e89b1817bb9bef00dd41ce45ab9add5da914954447bb935fde257e9952d4a9b1a4a
+  checksum: da3be393741e0d82e1173e219d7066c343e1c4d4bca28395eeaee5c71a1bb504eae0b7ae771b568a569960c47a223550e263778cfe96b71d55c1085cbf5800ce
   languageName: node
   linkType: hard
 
